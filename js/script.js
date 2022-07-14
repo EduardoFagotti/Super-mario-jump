@@ -28,14 +28,12 @@ const loop = setInterval(() => {
     }
 }, 10);
 
-//  
 
 document.addEventListener('keydown', function(){ 
     const audio = document.querySelector('audio')
     audio.currentTime = 0.2 
     audio.play()
 
-     
 }) 
 
 
@@ -44,10 +42,9 @@ document.addEventListener('click', function(){
     audio.currentTime = 0.2
     audio.play()
 })
-
-
+ 
 document.addEventListener('keydown', jump);    
 document.addEventListener('click', jump);
 
-console.log() 
+
 
